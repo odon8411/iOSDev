@@ -115,7 +115,7 @@
 //通过UDP,发送消息
 -(void)sendMassage:(NSString *)message
 {   
-    
+     
 	NSDate *nowTime = [NSDate date];
 	
 	NSMutableString *sendString=[NSMutableString stringWithCapacity:100];
